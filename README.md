@@ -10,6 +10,7 @@ Phonebook is an application made to be able to store the names and telephone num
 
 <h2>Technologies</h2>
 Made with technology that is quite busy being used now in large or small companies, including:
+
 Front End:
 * ReactJS
 * React-Dom
@@ -18,13 +19,16 @@ Front End:
 * Hooks
 * Axios
 * TailwindCSS
-* FontAwesome ReactJS
+* FontAwesome
+* ReactJS
+  
 _source files in ```frontend/``` folder_
 
 Back End: 
 * ExpressJS
 * Sequelize
 * cors
+  
 _source files in ```backend/``` folder_
 
 DataBase Management System(DBMS):
