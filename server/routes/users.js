@@ -52,7 +52,7 @@ router.get('/', async (req, res, next) => {
         where: {
           [Op.and]: [
             {
-              name: {
+              id: {
                 [Op.iLike]: `%${searchName}%`
               }
             }
