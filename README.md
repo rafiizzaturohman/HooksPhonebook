@@ -3,7 +3,8 @@
 <h2>Introduction</h2>
 
 This is a simple full-stack React application that allows you to store the names and phone numbers of your friends, family or other people you know.
-An application [Sequelize](https://sequelize.org/), [PostgresQL](https://www.postgresql.org/), [ExpressJS](https://expressjs.com/), [ReactJS](https://react.dev/), [TailwindCSS](https://tailwindcss.com/), and [NodeJS](https://nodejs.org/en) 
+
+An application based on [Sequelize](https://sequelize.org/), [PostgresQL](https://www.postgresql.org/), [ExpressJS](https://expressjs.com/), [ReactJS](https://react.dev/), [TailwindCSS](https://tailwindcss.com/), and [NodeJS](https://nodejs.org/en).
 
 <h2>Installation</h2>
 
