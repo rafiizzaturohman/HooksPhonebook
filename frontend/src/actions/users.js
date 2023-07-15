@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const url = axios.create({
-    baseURL: 'http://localhost:3002/',
+    baseURL: 'http://192.168.1.78:3010/',
     timeout: 1000,
     headers: { 'Authorization': 'token' }
 })
@@ -45,7 +45,7 @@ export const loadMore = () => {
     return async (dispatch, getState) => {
         try {
             let state = getState()
-            if (state.users.params.page <= state.users.params.pages) {
+            if (state.users.params.page < state.users.params.pages) {
                 let params = {
                     ...state.users.params,
                     page: state.users.params.page + 1
@@ -143,7 +143,7 @@ export const updateContact = (id, name, phone) => {
     return async dispatch => {
         try {
             const { data } = await url.put(`users/${id}`, { name, phone })
-
+            console.log(data.data)
             return dispatch(updateContactSuccess(id, data.data))
         } catch (error) {
             return dispatch(updateContactFailure())

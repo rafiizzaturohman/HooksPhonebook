@@ -1,15 +1,25 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useCallback, useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { updateContact } from '../../actions/users';
+import Modal from '../modal'
 
 export default function UserItem(props) {
+    const [modalOpen, setModalOpen] = useState(false)
     const [contact, setContact] = useState({
         editCond: false,
         id: props.users.id,
         name: props.users.name,
         phone: props.users.phone
     })
+
+    const handleOpenModal = () => {
+        setModalOpen(true)
+    }
+
+    const handleCloseModal = () => {
+        setModalOpen(false)
+    }
+
+    // console.log(props.users)
 
     const handleInputChange = (event) => {
         const target = event.target;
@@ -25,6 +35,7 @@ export default function UserItem(props) {
     const handleUpdate = useCallback((event) => {
         event.preventDefault()
         props.update(props.users.name, props.users.phone)
+
         setContact({ editCond: false, name: contact.name, phone: contact.phone })
     }, [props, contact])
 
@@ -50,26 +61,59 @@ export default function UserItem(props) {
         )
     } else {
         return (
-            <div className='transition ease-in-out container shadow-lg shadow-slate-300 bg-white/80 rounded-lg w-auto h-auto space-y-4 px-8 py-5  border-2 border-blue-200 hover:-translate-y-1 hover:scale-103' >
-                <div className='flex space-x-3 items-center'>
-                    <FontAwesomeIcon icon='signature' />
-                    <h1>{contact.name}</h1>
-                </div>
+            // <div className='transition ease-in-out container shadow-lg shadow-slate-300 bg-white/80 rounded-lg w-auto h-auto space-y-4 px-8 py-5  border-2 border-blue-200 hover:-translate-y-1 hover:scale-103' >
+            //     <div className='flex space-x-3 items-center'>
+            //         <FontAwesomeIcon icon='signature' />
+            //         <h1>{contact.name}</h1>
+            //     </div>
 
-                <div className='flex space-x-4 items-center opacity-60'>
-                    <FontAwesomeIcon icon='phone' />
-                    <h1>{contact.phone}</h1>
-                </div>
+            //     <div className='flex space-x-4 items-center opacity-60'>
+            //         <FontAwesomeIcon icon='phone' />
+            //         <h1>{contact.phone}</h1>
+            //     </div>
 
-                <div className='flex justify-evenly py-2'>
-                    <button type='button' onClick={() => setContact({ editCond: true, name: props.users.name, phone: props.users.phone })} className='transition hover:text-slate-400 hover:delay-100 font-semibold tracking-wider'>
-                        Edit
-                    </button>
+            //     <div className='flex justify-evenly py-2'>
+            //         <button type='button' onClick={() => setContact({ editCond: true, name: props.users.name, phone: props.users.phone })} className='transition hover:text-slate-400 hover:delay-100 font-semibold tracking-wider'>
+            //             Edit
+            //         </button>
 
-                    <button type='button' onClick={props.sent ? props.remove : props.resend} className='transition hover:text-slate-400 hover:delay-100 font-semibold tracking-wider'>
-                        {props.users.sent ? 'Delete' : 'Resend'}
-                    </button>
+            //         <button type='button' onClick={props.sent ? props.remove : props.resend} className='transition hover:text-slate-400 hover:delay-100 font-semibold tracking-wider'>
+            //             {props.users.sent ? 'Delete' : 'Resend'}
+            //         </button>
+            //     </div>
+            // </div>
+            <div>
+                <div className='transition ease-in-out container shadow-lg shadow-slate-300 bg-white/80 rounded-lg w-auto h-auto space-y-4 px-8 py-5  border-2 border-blue-200 hover:-translate-y-1 hover:scale-103' >
+                    <div className='flex space-x-3 items-center'>
+                        <FontAwesomeIcon icon='signature' />
+                        <h1>{contact.name}</h1>
+                    </div>
+
+                    <div className='flex space-x-4 items-center opacity-60'>
+                        <FontAwesomeIcon icon='phone' />
+                        <h1>{contact.phone}</h1>
+                    </div>
+
+                    {
+                        props.users.sent === true ?
+                            <div className='flex justify-evenly py-2'>
+                                <button type='button' onClick={() => setContact({ editCond: true, name: props.users.name, phone: props.users.phone })} className='transition hover:text-slate-400 hover:delay-100 font-semibold tracking-wider'>
+                                    Edit
+                                </button>
+
+                                <button type='button' onClick={handleOpenModal} className='transition hover:text-slate-400 hover:delay-100 font-semibold tracking-wider'>
+                                    Delete
+                                </button>
+                            </div>
+                            :
+                            <div className='py-2'>
+                                <button type='button' onClick={props.resend} className='transition hover:text-slate-400 hover:delay-100 font-semibold tracking-wider'>
+                                    Resend
+                                </button>
+                            </div>
+                    }
                 </div>
+                <Modal isOpen={modalOpen} onClose={handleCloseModal} onDelete={props.remove} />
             </div>
         )
     }

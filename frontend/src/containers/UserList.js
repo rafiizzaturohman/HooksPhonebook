@@ -21,7 +21,7 @@ export default function UserList(props) {
     return (
         <div onScroll={scrolling} className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 py-4 px-2 max-h-screen overflow-y-auto h-107">
             {
-                contact.map((user, index) => (
+                contact.map((user) => (
                     <UserItem key={user.id} users={user} sent={user.sent} resend={() => dispatch(resendContact(user.id, user.name, user.phone))} remove={() => dispatch(removeContact(user.id))} update={(name, phone) => dispatch(updateContact(user.id, name, phone))} />
                 ))
             }
