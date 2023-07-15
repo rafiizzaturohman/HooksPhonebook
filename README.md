@@ -60,9 +60,11 @@ Components needed to add contact:
 
 Users can do several things, including:
 * Scroll Pagination
-<img title="pagination" src="/images/PhonebookAdd.gif" />
+
+<img title="pagination" src="/images/pagination.gif" />
 
 * Add Contact
+
 <img title="Add Contact" src="/images/AddContact.gif" />
 
 * Update/Edit Contact
