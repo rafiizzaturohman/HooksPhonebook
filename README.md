@@ -10,15 +10,20 @@ Client side code is written in React and the server API is written in ExpressJS.
 
 Before you begin I recommend you to read about the basic building blocks that assamble this application:
 * PostgresQL - Go through [PostgresQL Official Website](https://www.postgresql.org/) and proceed to their [Official Manual or Documentation](https://www.postgresql.org/docs/), which should help you understand SQL and PostgresQL better.
+
 * ExpressJS - The best way to understand ExpressJS is through it's (Official Manuar or Documentation)[https://expressjs.com/], which has a (Getting Started)[https://expressjs.com/en/starter/installing.html] guide, as well an (ExpressJS)[https://expressjs.com/en/guide/routing.html] guide for general express topics.
+
 * ReactJS - React's (Official Website)[https://react.dev/] is a great starting point.
+
 * NodeJS - Start by going through (Node.JS Official Website)[https://nodejs.org/en] which should get you going with the Node.JS platform.
 
 ## Prerequsites
 
 Make sure you have installed all of the following prerequisites on your development machine:
 * Git - (Download & Install Git)[https://git-scm.com/downloads]. OSX and Linux machines typically have this already installed.
+
 * Node.JS - (Download & Install Node.JS)[https://nodejs.org/en/download/current], and the npm package manager.
+
 * PostgresQL - (Download & Install PostgresQL)[https://www.postgresql.org/download/], and make sure it's running on the default port  (27017).
 
 ## Technologies
