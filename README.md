@@ -13,7 +13,7 @@ Before you begin I recommend you to read about the basic building blocks that as
 
 * ExpressJS - The best way to understand ExpressJS is through it's [Official Manuar or Documentation](https://expressjs.com/), which has a [Getting Started](https://expressjs.com/en/starter/installing.html) guide, as well an [ExpressJS](https://expressjs.com/en/guide/routing.html) guide for general express topics.
 
-* ReactJS - React's (Official Website)[https://react.dev/] is a great starting point.
+* ReactJS - React's [Official Website](https://react.dev/) is a great starting point.
 
 * NodeJS - Start by going through [Node.JS Official Website](https://nodejs.org/en) which should get you going with the Node.JS platform.
 
