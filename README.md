@@ -61,7 +61,7 @@ Components needed to add contact:
 Users can do several things, including:
 * Add Contact
 
-[Add Contact](images/PhonebookAdd.gif)
+[](images/PhonebookAdd.gif)
 
 * Update/Edit Contact
 * Delete Contact
