@@ -8,6 +8,7 @@ Phonebook is an application made to be able to store the names and telephone num
 
 ```npm install```
 
+<h2>Techhnologies</h2>
 Made with technology that is quite busy being used now in large or small companies, including:
 Front End:
 * ReactJS
