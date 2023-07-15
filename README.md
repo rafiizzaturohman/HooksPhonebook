@@ -59,10 +59,10 @@ Components needed to add contact:
 ## Utility
 
 Users can do several things, including:
-* Add Contact
-
+* Scroll Pagination
 <img title="Add Contact" src="/images/PhonebookAdd.gif" />
 
+* Add Contact
 * Update/Edit Contact
 * Delete Contact
 * Search Contact (Search for a contact by name or phone number or by name and phone number)
