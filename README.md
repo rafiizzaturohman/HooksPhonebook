@@ -8,6 +8,11 @@ An application based on [Sequelize](https://sequelize.org/), [PostgresQL](https:
 
 Client side code is written in React and the server API is written in ExpressJS.
 
+<h2>Before You Begin</h2>
+
+Before you begin I recommend you to read about the basic building blocks that assamble this application:
+* PostgresQL - Go through [PostgresQL Official Website](https://www.postgresql.org/) and proceed to their [Official Manuat or Documentation](https://www.postgresql.org/docs/), which should help you understand SQL and PostgresQL better.
+
 <h2>Installation</h2>
 
 ```npm install```
