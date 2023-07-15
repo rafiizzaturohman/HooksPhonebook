@@ -91,7 +91,7 @@ cd HooksPhonebook
 
 # Install dependencies for client
 cd client && npm install
-Note: the process of installing dependencies for ReactJS can take some time.
+Note: the process of installing dependencies for client dependencies can take some time.
 
 # Start client
 npm start
