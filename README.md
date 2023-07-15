@@ -2,7 +2,8 @@
 
 <h2>Introduction</h2>
 
-Phonebook is an application made to be able to store the names and telephone numbers of friends, family or other people we know
+This is a simple full-stack React application that allows you to store the names and phone numbers of your friends, family or other people you know.
+An application [Sequelize](https://sequelize.org/), [PostgresQL](https://www.postgresql.org/), [ExpressJS](https://expressjs.com/), [ReactJS](https://react.dev/), [TailwindCSS](https://tailwindcss.com/), and [NodeJS](https://nodejs.org/en) 
 
 <h2>Installation</h2>
 
@@ -12,7 +13,7 @@ Phonebook is an application made to be able to store the names and telephone num
 Made with technology that is quite busy being used now in large or small companies, including:
 
 Front End:
-* ReactJS
+* ReactJS (ES6)
 * React-Dom
 * Redux
 * Redux-Thunk
