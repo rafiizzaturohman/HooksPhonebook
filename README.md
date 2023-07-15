@@ -17,8 +17,13 @@ DataBase Management System(DBMS):
 * PostgresQL
 
 # Entity
-<h3>User</h3>
+
+<h3>Contact</h3>
 
 Components needed to add contact:
 * Name
 * Phone Number
+
+# Features
+
+Users can do several things, including:
