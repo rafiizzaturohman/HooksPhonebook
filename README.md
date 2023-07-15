@@ -1,3 +1,3 @@
 # Phonebook
 
-<h6>Phonebook is an application made to be able to store the names and telephone numbers of friends, family or other people we know</h6>
+<h4>Phonebook is an application made to be able to store the names and telephone numbers of friends, family or other people we know</h4>
