@@ -56,13 +56,15 @@ Components needed to add contact:
 * Name
 * Phone Number
 
-## Utility
+## Features
 
 Users can do several things, including:
 * Scroll Pagination
-<img title="Add Contact" src="/images/PhonebookAdd.gif" />
+<img title="pagination" src="/images/PhonebookAdd.gif" />
 
 * Add Contact
+<img title="Add Contact" src="/images/AddContact.gif" />
+
 * Update/Edit Contact
 * Delete Contact
 * Search Contact (Search for a contact by name or phone number or by name and phone number)
