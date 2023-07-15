@@ -96,3 +96,5 @@ Note: the process of installing dependencies for ReactJS can take some time.
 # Start client
 npm start
 ```
+
+This application should run on port 3000, you can access it through browser, just go to http://localhost:3000/ for Client App and http://localhost:3010/ for RESTful API's.
