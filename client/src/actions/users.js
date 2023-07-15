@@ -197,6 +197,7 @@ export const searchContact = (searchName, searchPhone) => {
         }
         try {
             const { data } = await url.get('users', { params })
+
             params = {
                 ...params,
                 pages: data.data.pages

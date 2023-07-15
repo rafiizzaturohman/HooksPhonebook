@@ -34,7 +34,7 @@ export default function UserForm(props) {
     const handleSearch = useCallback((event) => {
         event.preventDefault()
         dispatch(searchContact(contact.searchName, contact.searchPhone))
-        // setContact({ name: '', phone: '' })
+        setContact({ name: '', phone: '' })
     }, [contact])
 
     if (contact.addCond) {
@@ -116,7 +116,7 @@ export default function UserForm(props) {
                         <h1 className=' text-lg text-white font-bold'>Search Contact</h1>
                     </div>
 
-                    <form onSubmit={handleSearch} className=''>
+                    <form onSubmit={handleSearch}>
                         <div id='searchForm' className='space-y-8 mt-8'>
                             <div className='space-x-6 flex justify-evenly items-center'>
                                 <label className='text-lg font-semibold tracking-wide' htmlFor='searchName'>Name</label>
@@ -150,21 +150,3 @@ export default function UserForm(props) {
         )
     }
 }
-
-// const mapStateToProps = (state) => {
-//     return {
-//         users: state.users.data,
-//         params: state.users.params
-//     }
-// }
-
-// const mapDispatchToProps = (dispatch, ownProps) => ({
-//     add: (name, phone) => dispatch(addContact(name, phone)),
-//     load: () => dispatch(loadContact()),
-//     search: (searchName, searchPhone) => dispatch(searchContact(searchName, searchPhone))
-// })
-
-// export default connect(
-//     mapStateToProps,
-//     mapDispatchToProps
-// )(UserForm)

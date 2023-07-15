@@ -50,18 +50,16 @@ router.get('/', async (req, res, next) => {
         limit,
         offset,
         where: {
-          [Op.and]: [
-            {
-              id: {
-                [Op.iLike]: `%${searchName}%`
-              }
-            }
-          ]
+          name: {
+            [Op.iLike]: `%${searchName}%`
+          }
         },
         order: [
           ['id', 'ASC']
         ]
       })
+
+      console.log(users)
 
       res.json(new Response({
         users,
@@ -73,13 +71,9 @@ router.get('/', async (req, res, next) => {
         limit,
         offset,
         where: {
-          [Op.and]: [
-            {
-              phone: {
-                [Op.iLike]: `%${searchPhone}%`
-              }
-            }
-          ]
+          phone: {
+            [Op.iLike]: `%${searchPhone}%`
+          }
         },
         order: [
           ['id', 'ASC']

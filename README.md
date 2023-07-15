@@ -58,10 +58,13 @@ Components needed to add contact:
 
 ## Features
 
-Users can do several things, including:
+* Responsive Design
+
+<img title="Responsive" src="/images/Responsive.gif" />
+
 * Scroll Pagination
 
-<img title="pagination" src="/images/Pagination.gif" />
+<img title="Pagination" src="/images/Pagination.gif" />
 
 * Add Contact
 
@@ -72,7 +75,13 @@ Users can do several things, including:
 <img title="Edit Contact" src="/images/UpdateContact.gif" />
 
 * Delete Contact
+
+<img title="Delete Contact" src="/images/DeleteContact.gif" />
+
 * Search Contact (Search for a contact by name or phone number or by name and phone number)
+
+** Search by name
+<img title="By Name" src="/images/ByName.gif" />
 
 ## Quick Start
 
