@@ -76,12 +76,14 @@ export default function UserForm(props) {
                         <form onSubmit={handleSubmit} id='inputForm' className='space-y-8 mt-8'>
                             <div className='space-x-5 flex justify-evenly items-center'>
                                 <label className='text-lg font-semibold tracking-wide' htmlFor='name'>Name</label>
+
                                 <input type='text' id='name' name='name' onChange={handleInputChange} value={contact.name || ''} className='text-lg border-2 border-blue-200 rounded-lg px-4 py-2 w-full' onInvalid={e => e.target.setCustomValidity('Please enter name here')} onInput={e => e.target.setCustomValidity('')} required />
                             </div>
 
                             <div className='space-x-4 flex justify-evenly items-center'>
                                 <label className='text-lg font-semibold tracking-wide' htmlFor='phone'>Phone</label>
-                                <input type='tel' pattern='[08][0-9]{11}' id='phone' name='phone' onChange={handleInputChange} value={contact.phone || ''} className='text-lg border-2 border-blue-200 rounded-lg px-4 py-2 w-full' onInvalid={e => e.target.setCustomValidity('Please enter phone here')} onInput={e => e.target.setCustomValidity('')} required />
+
+                                <input type='tel' pattern={'[08][0-9]{9, 10, 11}' || '[+][62][0-9]{12, 13, 14}'} id='phone' name='phone' onChange={handleInputChange} value={contact.phone || ''} className='text-lg border-2 border-blue-200 rounded-lg px-4 py-2 w-full' onInvalid={e => e.target.setCustomValidity('Please enter phone here')} onInput={e => e.target.setCustomValidity('')} required />
                             </div>
 
                             <p className='tracking-wide opacity-60'>Phone format: 0812345678912</p>

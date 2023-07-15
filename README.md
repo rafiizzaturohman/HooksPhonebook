@@ -70,9 +70,13 @@ Components needed to add contact:
 
 <img title="Add Contact" src="/images/AddContact.gif" />
 
+Note: To add a phone number, it must start with "08" or "+62" and have a total of 11-13 digits if it starts with "08" and has a total of 12-13 digits if it starts with "+62"
+
 * Update/Edit Contact
 
 <img title="Edit Contact" src="/images/UpdateContact.gif" />
+
+Note: For editing to have the same pattern as adding a phone number, it must start with "08" or "+62" and have a total of 11-13 digits if it starts with "08" and have a total of 12-13 digits if it starts with " +62"
 
 * Delete Contact
 

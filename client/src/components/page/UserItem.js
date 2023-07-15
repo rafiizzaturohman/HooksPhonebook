@@ -47,7 +47,7 @@ export default function UserItem(props) {
 
                 <div className='flex space-x-4 items-center'>
                     <FontAwesomeIcon icon='phone' />
-                    <input type='tel' pattern='[08][0-9]{11}' name='phone' id='phone' value={contact.phone} onChange={handleInputChange} className='px-2 py-1 border border-blue-400/75 rounded-lg w-full' required />
+                    <input type='tel' pattern={'[08][0-9]{9, 11}' || '[+][62][0-9]{11, 14}'} name='phone' id='phone' value={contact.phone} onChange={handleInputChange} className='px-2 py-1 border border-blue-400/75 rounded-lg w-full' required />
                 </div>
 
                 <div className='flex justify-evenly py-2'>
