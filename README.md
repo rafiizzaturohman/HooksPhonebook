@@ -27,3 +27,7 @@ Components needed to add contact:
 # Features
 
 Users can do several things, including:
+* Add Contact
+* Update/Edit Contact
+* Delete Contact
+* Search Contact (Search for a contact by name or phone number or by name and phone number)
