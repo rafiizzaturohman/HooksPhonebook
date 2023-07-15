@@ -18,3 +18,7 @@ DataBase Management System(DBMS):
 
 # Entity
 <h3>User</h3>
+Components needed to add contact:
+* Name
+* Phone Number
+
