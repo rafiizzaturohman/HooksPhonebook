@@ -143,7 +143,7 @@ export const updateContact = (id, name, phone) => {
     return async dispatch => {
         try {
             const { data } = await url.put(`users/${id}`, { name, phone })
-            console.log(data.data)
+            console.log("update", data.data)
             return dispatch(updateContactSuccess(id, data.data))
         } catch (error) {
             return dispatch(updateContactFailure())

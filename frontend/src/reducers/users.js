@@ -94,20 +94,17 @@ const users = (state = {
             }
 
         case 'UPDATE_CONTACT_SUCCESS':
-            return {
-                ...state,
-                data: [...state.data.map(item => {
-                    if (item.id === action.id) {
-                        return {
-                            id: action.data.id,
-                            name: action.data.name,
-                            phone: action.data.phone,
-                            sent: true
-                        }
+            return state.map(item => {
+                if (item.id === action.id) {
+                    return {
+                        id: action.users.id,
+                        name: action.users.name,
+                        phone: action.users.phone,
+                        sent: true
                     }
-                    return item
-                })]
-            }
+                }
+                return item
+            })
 
         case 'REMOVE_CONTACT_SUCCESS':
             return {
