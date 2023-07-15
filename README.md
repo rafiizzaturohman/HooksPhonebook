@@ -80,7 +80,7 @@ Components needed to add contact:
 
 * Search Contact (Search for a contact by name or phone number or by name and phone number)
 
-** Search by name
+ * Search by name
 <img title="By Name" src="/images/ByName.gif" />
 
 ## Quick Start
