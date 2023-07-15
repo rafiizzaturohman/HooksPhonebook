@@ -68,6 +68,9 @@ Users can do several things, including:
 <img title="Add Contact" src="/images/AddContact.gif" />
 
 * Update/Edit Contact
+
+<img title="Edit Contact" src="/images/UpdateContact.gif" />
+
 * Delete Contact
 * Search Contact (Search for a contact by name or phone number or by name and phone number)
 
