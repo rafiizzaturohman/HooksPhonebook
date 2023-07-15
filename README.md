@@ -61,7 +61,7 @@ Components needed to add contact:
 Users can do several things, including:
 * Scroll Pagination
 
-<img title="pagination" src="/images/pagination.gif" />
+<img title="pagination" src="/images/Pagination.gif" />
 
 * Add Contact
 
