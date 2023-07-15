@@ -6,6 +6,8 @@ This is a simple full-stack React application that allows you to store the names
 
 An application based on [Sequelize](https://sequelize.org/), [PostgresQL](https://www.postgresql.org/), [ExpressJS](https://expressjs.com/), [ReactJS](https://react.dev/), [TailwindCSS](https://tailwindcss.com/), and [NodeJS](https://nodejs.org/en).
 
+Client side code is written in React and the server API is written in ExpressJS.
+
 <h2>Installation</h2>
 
 ```npm install```
