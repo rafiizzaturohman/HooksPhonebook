@@ -15,3 +15,6 @@ Back End:
 
 DataBase Management System(DBMS):
 * PostgresQL
+
+# Entity
+<h3>User</h3>
