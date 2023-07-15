@@ -22,6 +22,7 @@ Make sure you have installed all of the following prerequisites on your developm
 * PostgresQL - (Download & Install PostgresQL)[https://www.postgresql.org/download/], and make sure it's running on the default port  (27017).
 
 <h2>Technologies</h2>
+
 Made with technology that is quite busy being used now in large or small companies, including:
 
 Front End:
