@@ -10,7 +10,7 @@ Client side code is written in React and the server API is written in ExpressJS.
 
 Before you begin I recommend you to read about the basic building blocks that assamble this application:
 
-* Sequelize - Go to the [Sequelize Official Website](https://www.sequelize.org/) and open the [Official Manual or Documentation](https://sequelize.org/docs/v6/), which will be very helpful to understand more about sequelize
+* Sequelize - Go to the [Sequelize Official Website](https://www.sequelize.org/) and open the [Official Manual or Documentation](https://sequelize.org/docs/v6/), which will be very helpful to understand more about sequelize.
 
 * PostgresQL - Go through [PostgresQL Official Website](https://www.postgresql.org/) and proceed to their [Official Manual or Documentation](https://www.postgresql.org/docs/), which should help you understand SQL and PostgresQL better.
 
