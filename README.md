@@ -50,7 +50,7 @@ Back End:
 * ExpressJS
 * Sequelize
 
-// Notes: It is recommended to use the stable Sequelize in July 2023, namely Sequelize v7
+ Notes: It is recommended to use the stable Sequelize in July 2023, namely Sequelize v6
 
 * cors
   
