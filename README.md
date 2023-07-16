@@ -34,7 +34,7 @@ Make sure you have installed all of the following prerequisites on your developm
 Made with technology that is quite busy being used now in large or small companies, including:
 
 Front End:
-* ReactJS (ES6)
+* ReactJS
 * React-Dom
 * Redux
 * Redux-Thunk
@@ -49,7 +49,9 @@ _source files in ```client/``` folder_
 Back End: 
 * ExpressJS
 * Sequelize
+
 // Notes: It is recommended to use the stable Sequelize in July 2023, namely Sequelize v7
+
 * cors
   
 _source files in ```server/``` folder_
