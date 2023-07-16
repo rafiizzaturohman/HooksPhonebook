@@ -20,7 +20,7 @@ Before you begin I recommend you to read about the basic building blocks that as
 
 * NodeJS - Start by going through [Node.JS Official Website](https://nodejs.org/en) which should get you going with the Node.JS platform.
 
-## Prerequsites
+## Prerequisites
 
 Make sure you have installed all of the following prerequisites on your development machine:
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
