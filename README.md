@@ -9,6 +9,9 @@ Client side code is written in React and the server API is written in ExpressJS.
 ## Before You Begin
 
 Before you begin I recommend you to read about the basic building blocks that assamble this application:
+
+* Sequelize - Go to the [Sequelize Official Website](https://www.sequelize.org/) and open the [Official Manual or Documentation](https://sequelize.org/docs/v6/), which will be very helpful to understand more about sequelize
+
 * PostgresQL - Go through [PostgresQL Official Website](https://www.postgresql.org/) and proceed to their [Official Manual or Documentation](https://www.postgresql.org/docs/), which should help you understand SQL and PostgresQL better.
 
 * ExpressJS - The best way to understand ExpressJS is through it's [Official Manual or Documentation](https://expressjs.com/), which has a [Getting Started](https://expressjs.com/en/starter/installing.html) guide, as well an [ExpressJS](https://expressjs.com/en/guide/routing.html) guide for general express topics.
@@ -46,6 +49,7 @@ _source files in ```client/``` folder_
 Back End: 
 * ExpressJS
 * Sequelize
+Notes: It is recommended to use the stable Sequelize in July 2023, namely Sequelize v7
 * cors
   
 _source files in ```server/``` folder_
