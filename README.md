@@ -106,6 +106,8 @@ Note: _For editing to have the same pattern as adding a phone number, it must st
 
 ## Quick Start
 
+Open terminal to run the server
+
 ```bash
 # Clone the repository
 git clone https://github.com/rafiizzaturohman/HooksPhonebook
