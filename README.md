@@ -67,6 +67,40 @@ Components needed to add contact:
 * Name
 * Phone Number
 
+## Quick Start
+
+Open terminal to run the server
+
+```bash
+# Clone the repository
+git clone https://github.com/rafiizzaturohman/HooksPhonebook
+
+# Go inside the directory
+cd HooksPhonebook
+
+# Install dependencies for server
+cd server && npm install
+
+# Start Server
+npm start
+```
+
+Open new terminal to run the client
+
+```bash
+# Go inside the directiory
+cd HooksPhonebook
+
+# Install dependencies for client
+cd client && npm install
+// Note: the process of installing dependencies for client dependencies can take some time.
+
+# Start client
+npm start
+```
+
+This application should run on port 3000, you can access it through browser, just go to http://localhost:3000/ for Client App and http://localhost:3010/ for RESTful API's.
+
 ## Features
 
 * Responsive Design
@@ -103,37 +137,3 @@ Note: _For editing to have the same pattern as adding a phone number, it must st
 
     * Search By Name and Phone
     <img title="By Name and Phone" src="/images/ByNameAndPhone.gif" />
-
-## Quick Start
-
-Open terminal to run the server
-
-```bash
-# Clone the repository
-git clone https://github.com/rafiizzaturohman/HooksPhonebook
-
-# Go inside the directory
-cd HooksPhonebook
-
-# Install dependencies for server
-cd server && npm install
-
-# Start Server
-npm start
-```
-
-Open new terminal to run the client
-
-```bash
-# Go inside the directiory
-cd HooksPhonebook
-
-# Install dependencies for client
-cd client && npm install
-// Note: the process of installing dependencies for client dependencies can take some time.
-
-# Start client
-npm start
-```
-
-This application should run on port 3000, you can access it through browser, just go to http://localhost:3000/ for Client App and http://localhost:3010/ for RESTful API's.
